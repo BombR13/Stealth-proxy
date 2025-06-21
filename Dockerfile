@@ -1,7 +1,8 @@
-FROM node:20
+FROM ghcr.io/puppeteer/puppeteer:latest
 
 WORKDIR /app
 COPY . .
+
 RUN npm install
 
 EXPOSE 8080
