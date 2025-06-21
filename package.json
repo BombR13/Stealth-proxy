@@ -1,6 +1,7 @@
 {
   "name": "stealth-proxy",
   "version": "1.0.0",
+  "description": "A stealthy Puppeteer proxy for bypassing school blocks",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
